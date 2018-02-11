@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin">
+
+
+    <TextView
+        android:id="@+id/rcyc_row_item_txtPersonalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Buğra Emin Bürüngüz" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adapter_item_guest_list_txtSoup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Çorba" />
+
+            <TextView
+                android:id="@+id/adapter_item_guest_list_txtFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ana Yemek" />
+
+            <TextView
+                android:id="@+id/adapter_item_guest_list_txtDrink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="İçecek" />
+
+            <TextView
+                android:id="@+id/adapter_item_guest_list_txtDesserts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Tatlılar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/rcyc_row_item_txtSoup"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Çorba:" />
+
+            <TextView
+                android:id="@+id/rcyc_row_item_txtFood"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ana Yemek:" />
+
+            <TextView
+                android:id="@+id/rcyc_row_item_txtDrink"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="İçecek:" />
+
+            <TextView
+                android:id="@+id/rcyc_row_item_txtDessert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Tatlılar:" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

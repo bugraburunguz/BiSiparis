@@ -2,4 +2,13 @@
     <string name="app_name">BiSiparis</string>
     <string name="title_activity_food">FoodActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="worker_name">Personel İsmi</string>
+    <string name="worker_password">Personel Şifreniz</string>
+    <string name="login">Giriş</string>
+    <string name="update">Güncelle</string>
+
+    <string name="remember_me">Hatırla Beni</string>
+    <string name="siparis_ekle">Siparis Ekle</string>
+    <string name="customer_name">Müşteri Adı</string>
+    <string name="continue_order">Siparişi Al</string>
 </resources>
